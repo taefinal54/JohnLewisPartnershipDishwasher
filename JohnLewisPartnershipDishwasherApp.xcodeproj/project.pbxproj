@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CEBDD61E60973000578FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDD51E60973000578FCE /* AppDelegate.swift */; };
+		03CEBDD81E60973000578FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDD71E60973000578FCE /* ViewController.swift */; };
+		03CEBDDB1E60973000578FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBDD91E60973000578FCE /* Main.storyboard */; };
+		03CEBDDD1E60973000578FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBDDC1E60973000578FCE /* Assets.xcassets */; };
+		03CEBDE01E60973000578FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBDDE1E60973000578FCE /* LaunchScreen.storyboard */; };
+		03CEBDEB1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */; };
+		03CEBDF61E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDF51E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CEBDE71E60973000578FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CEBDCA1E60973000578FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CEBDD11E60973000578FCE;
+			remoteInfo = JohnLewisPartnershipDishwasherApp;
+		};
+		03CEBDF21E60973000578FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CEBDCA1E60973000578FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CEBDD11E60973000578FCE;
+			remoteInfo = JohnLewisPartnershipDishwasherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CEBDD21E60973000578FCE /* JohnLewisPartnershipDishwasherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnLewisPartnershipDishwasherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CEBDD51E60973000578FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03CEBDD71E60973000578FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03CEBDDA1E60973000578FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03CEBDDC1E60973000578FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03CEBDDF1E60973000578FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03CEBDE11E60973000578FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CEBDE61E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnLewisPartnershipDishwasherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnLewisPartnershipDishwasherAppTests.swift; sourceTree = "<group>"; };
+		03CEBDEC1E60973000578FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CEBDF11E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnLewisPartnershipDishwasherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CEBDF51E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnLewisPartnershipDishwasherAppUITests.swift; sourceTree = "<group>"; };
+		03CEBDF71E60973000578FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CEBDCF1E60973000578FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDE31E60973000578FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDEE1E60973000578FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CEBDC91E60973000578FCE = {
+			isa = PBXGroup;
+			children = (
+				03CEBDD41E60973000578FCE /* JohnLewisPartnershipDishwasherApp */,
+				03CEBDE91E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests */,
+				03CEBDF41E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests */,
+				03CEBDD31E60973000578FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CEBDD31E60973000578FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CEBDD21E60973000578FCE /* JohnLewisPartnershipDishwasherApp.app */,
+				03CEBDE61E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.xctest */,
+				03CEBDF11E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CEBDD41E60973000578FCE /* JohnLewisPartnershipDishwasherApp */ = {
+			isa = PBXGroup;
+			children = (
+				03CEBDD51E60973000578FCE /* AppDelegate.swift */,
+				03CEBDD71E60973000578FCE /* ViewController.swift */,
+				03CEBDD91E60973000578FCE /* Main.storyboard */,
+				03CEBDDC1E60973000578FCE /* Assets.xcassets */,
+				03CEBDDE1E60973000578FCE /* LaunchScreen.storyboard */,
+				03CEBDE11E60973000578FCE /* Info.plist */,
+			);
+			path = JohnLewisPartnershipDishwasherApp;
+			sourceTree = "<group>";
+		};
+		03CEBDE91E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */,
+				03CEBDEC1E60973000578FCE /* Info.plist */,
+			);
+			path = JohnLewisPartnershipDishwasherAppTests;
+			sourceTree = "<group>";
+		};
+		03CEBDF41E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03CEBDF51E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift */,
+				03CEBDF71E60973000578FCE /* Info.plist */,
+			);
+			path = JohnLewisPartnershipDishwasherAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CEBDD11E60973000578FCE /* JohnLewisPartnershipDishwasherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CEBDFA1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherApp" */;
+			buildPhases = (
+				03CEBDCE1E60973000578FCE /* Sources */,
+				03CEBDCF1E60973000578FCE /* Frameworks */,
+				03CEBDD01E60973000578FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JohnLewisPartnershipDishwasherApp;
+			productName = JohnLewisPartnershipDishwasherApp;
+			productReference = 03CEBDD21E60973000578FCE /* JohnLewisPartnershipDishwasherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CEBDE51E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CEBDFD1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppTests" */;
+			buildPhases = (
+				03CEBDE21E60973000578FCE /* Sources */,
+				03CEBDE31E60973000578FCE /* Frameworks */,
+				03CEBDE41E60973000578FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CEBDE81E60973000578FCE /* PBXTargetDependency */,
+			);
+			name = JohnLewisPartnershipDishwasherAppTests;
+			productName = JohnLewisPartnershipDishwasherAppTests;
+			productReference = 03CEBDE61E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03CEBDF01E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CEBE001E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppUITests" */;
+			buildPhases = (
+				03CEBDED1E60973000578FCE /* Sources */,
+				03CEBDEE1E60973000578FCE /* Frameworks */,
+				03CEBDEF1E60973000578FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CEBDF31E60973000578FCE /* PBXTargetDependency */,
+			);
+			name = JohnLewisPartnershipDishwasherAppUITests;
+			productName = JohnLewisPartnershipDishwasherAppUITests;
+			productReference = 03CEBDF11E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CEBDCA1E60973000578FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TAE;
+				TargetAttributes = {
+					03CEBDD11E60973000578FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					03CEBDE51E60973000578FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03CEBDD11E60973000578FCE;
+					};
+					03CEBDF01E60973000578FCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03CEBDD11E60973000578FCE;
+					};
+				};
+			};
+			buildConfigurationList = 03CEBDCD1E60973000578FCE /* Build configuration list for PBXProject "JohnLewisPartnershipDishwasherApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CEBDC91E60973000578FCE;
+			productRefGroup = 03CEBDD31E60973000578FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CEBDD11E60973000578FCE /* JohnLewisPartnershipDishwasherApp */,
+				03CEBDE51E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests */,
+				03CEBDF01E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CEBDD01E60973000578FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CEBDE01E60973000578FCE /* LaunchScreen.storyboard in Resources */,
+				03CEBDDD1E60973000578FCE /* Assets.xcassets in Resources */,
+				03CEBDDB1E60973000578FCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDE41E60973000578FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDEF1E60973000578FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CEBDCE1E60973000578FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CEBDD81E60973000578FCE /* ViewController.swift in Sources */,
+				03CEBDD61E60973000578FCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDE21E60973000578FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CEBDEB1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CEBDED1E60973000578FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CEBDF61E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CEBDE81E60973000578FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CEBDD11E60973000578FCE /* JohnLewisPartnershipDishwasherApp */;
+			targetProxy = 03CEBDE71E60973000578FCE /* PBXContainerItemProxy */;
+		};
+		03CEBDF31E60973000578FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CEBDD11E60973000578FCE /* JohnLewisPartnershipDishwasherApp */;
+			targetProxy = 03CEBDF21E60973000578FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CEBDD91E60973000578FCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CEBDDA1E60973000578FCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03CEBDDE1E60973000578FCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CEBDDF1E60973000578FCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CEBDF81E60973000578FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		03CEBDF91E60973000578FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CEBDFB1E60973000578FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03CEBDFC1E60973000578FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03CEBDFE1E60973000578FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JohnLewisPartnershipDishwasherApp.app/JohnLewisPartnershipDishwasherApp";
+			};
+			name = Debug;
+		};
+		03CEBDFF1E60973000578FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JohnLewisPartnershipDishwasherApp.app/JohnLewisPartnershipDishwasherApp";
+			};
+			name = Release;
+		};
+		03CEBE011E60973000578FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JohnLewisPartnershipDishwasherApp;
+			};
+			name = Debug;
+		};
+		03CEBE021E60973000578FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TAE.JohnLewisPartnershipDishwasherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JohnLewisPartnershipDishwasherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CEBDCD1E60973000578FCE /* Build configuration list for PBXProject "JohnLewisPartnershipDishwasherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CEBDF81E60973000578FCE /* Debug */,
+				03CEBDF91E60973000578FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CEBDFA1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CEBDFB1E60973000578FCE /* Debug */,
+				03CEBDFC1E60973000578FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CEBDFD1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CEBDFE1E60973000578FCE /* Debug */,
+				03CEBDFF1E60973000578FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CEBE001E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CEBE011E60973000578FCE /* Debug */,
+				03CEBE021E60973000578FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CEBDCA1E60973000578FCE /* Project object */;
+}
