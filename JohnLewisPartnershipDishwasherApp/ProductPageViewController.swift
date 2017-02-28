@@ -22,7 +22,7 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
     
     // Initialize it right away here
     private var contentImages: [String] = []
-    
+    var productID:String!
     private var productDectLabelText:String = ""
     private var productCodeLabelText:String = ""
     private var featuresName:[String] = []
@@ -31,7 +31,8 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
     
     let screenHeight = UIScreen.main.bounds.height
     let scrollViewContentHeight = 1200 as CGFloat
-    
+    // set up the session
+    let session = URLSession(configuration: URLSessionConfiguration.default)
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,8 +40,6 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         productSpecTableView.delegate = self
         
         showActivityIndicatory()
-        fetchCategoryCollection()
-        
         
 //        productScrollView.contentSize = CGSize(width: productScrollView.frame.size.width, height: scrollViewContentHeight)
 //        productScrollView.delegate = self
@@ -62,6 +61,16 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         automaticallyAdjustsScrollViewInsets = false
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        fetchCategoryCollection(productID: productID)
+
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        session.invalidateAndCancel()
+    }
     private func createPageViewController() {
         
         let pageController = self.storyboard!.instantiateViewController(withIdentifier: "PageController") as! UIPageViewController
@@ -134,9 +143,9 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         return 0
     }
     
-    private func fetchCategoryCollection() {
+    private func fetchCategoryCollection(productID: String) {
         // Fetch products from the API.
-        WebServices.sharedInstance.HTTPRequest(url: WebServicesHelper.getProductPage(productID: "1913267")) { responseDictionary in
+        WebServices.sharedInstance.HTTPRequest(session:session, url: WebServicesHelper.getProductPage(productID: productID)) { responseDictionary in
             self.responseDictionary = responseDictionary
            // DispatchQueue.main.async(){
                 self.updateView()
@@ -147,6 +156,14 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
     }
     
     func updateView(){
+        
+        guard let title = responseDictionary["title"] as? String else {
+            print("Could not get todo title from JSON")
+            return
+        }
+
+        self.title = title
+        
         guard let todoTitle = responseDictionary["price"] as? [String:AnyObject] else {
             print("Could not get todo title from JSON")
             return

@@ -12,24 +12,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3039" y="882"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="kwn-Zq-r1N">
             <objects>
                 <viewController id="Y3C-fF-GbE" customClass="ViewController" customModule="JohnLewisPartnershipDishwasherApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -132,39 +114,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WxR-7V-W8t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1503.515625" y="156.36896046852121"/>
-        </scene>
-        <!--Test View Controller-->
-        <scene sceneID="YCj-af-A9n">
-            <objects>
-                <viewController id="b1S-na-ThN" customClass="TestViewController" customModule="JohnLewisPartnershipDishwasherApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1eK-EI-yYk"/>
-                        <viewControllerLayoutGuide type="bottom" id="PS7-VD-enl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2ae-lc-tZ6">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fy3-Vv-usW">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="PS7-VD-enl" firstAttribute="top" secondItem="Fy3-Vv-usW" secondAttribute="bottom" id="Iph-E4-NhS"/>
-                            <constraint firstAttribute="trailing" secondItem="Fy3-Vv-usW" secondAttribute="trailing" id="eED-ww-CX4"/>
-                            <constraint firstItem="Fy3-Vv-usW" firstAttribute="top" secondItem="2ae-lc-tZ6" secondAttribute="top" id="ew2-lG-kO6"/>
-                            <constraint firstItem="Fy3-Vv-usW" firstAttribute="leading" secondItem="2ae-lc-tZ6" secondAttribute="leading" id="nNg-8c-02G"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="superView" destination="Fy3-Vv-usW" id="g9w-Jd-eHb"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lV6-mc-Ust" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3632" y="895"/>
         </scene>
         <!--Page Item View Controller-->
         <scene sceneID="avA-jc-Am7">

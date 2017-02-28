@@ -12,7 +12,6 @@ import Alamofire
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var collectionViewArray: [ProductGrid] = []
     fileprivate let reuseIdentifier = "ProductGridCell"
-
     @IBOutlet weak var productGridCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,16 +81,21 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
 
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-            performSegue(withIdentifier: "PageDetailSegue", sender: self)
-    }
-    
-    override func performSegue(withIdentifier identifier: String, sender: Any?) {
 
-        if identifier == "PageDetailSegue"{
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "PageDetailSegue") {
+            let nextVC = segue.destination as! ProductPageViewController;
             
+            let cell = sender as! ProductGridCollectionViewCell
+            let row = self.productGridCollectionView.indexPath(for: cell)?.row
+
+            
+            nextVC.productID = collectionViewArray[row!].productId
         }
+
     }
+
     
     func rotate(){
     //    relodeColletionView()
@@ -103,8 +107,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             self.collectionViewArray = collectionViewArray
             // Save and reload the table.
             self.relodeColletionView()
+            self.title = "Products(" + "\(collectionViewArray.count)" + ")"
             
             // Stop animating the refresh control.
+            
+            
         }
     }
     

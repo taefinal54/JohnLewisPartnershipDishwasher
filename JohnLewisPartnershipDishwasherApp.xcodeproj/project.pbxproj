@@ -11,11 +11,6 @@
 		03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */; };
 		03931D5A1E60B79600606DA1 /* ProductGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D591E60B79600606DA1 /* ProductGrid.swift */; };
 		03931D5E1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */; };
-		03C887E91E644B7000E3AD65 /* LandScapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C887E81E644B7000E3AD65 /* LandScapeView.xib */; };
-		03C887EB1E644C4300E3AD65 /* PView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C887EA1E644C4300E3AD65 /* PView.xib */; };
-		03C887ED1E644D5B00E3AD65 /* LandScapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */; };
-		03C887EF1E644D6A00E3AD65 /* PView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887EE1E644D6A00E3AD65 /* PView.swift */; };
-		03C887F11E644F6100E3AD65 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F01E644F6100E3AD65 /* TestViewController.swift */; };
 		03C887F31E6473C400E3AD65 /* PageItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F21E6473C400E3AD65 /* PageItemViewController.swift */; };
 		03C887F51E64748900E3AD65 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F41E64748900E3AD65 /* ProductPageViewController.swift */; };
 		03C887F81E64B9B400E3AD65 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F71E64B9B400E3AD65 /* UIImageViewExtension.swift */; };
@@ -58,11 +53,6 @@
 		03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebservicesHelper.swift; sourceTree = "<group>"; };
 		03931D591E60B79600606DA1 /* ProductGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGrid.swift; sourceTree = "<group>"; };
 		03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGridCollectionViewCell.swift; sourceTree = "<group>"; };
-		03C887E81E644B7000E3AD65 /* LandScapeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandScapeView.xib; sourceTree = "<group>"; };
-		03C887EA1E644C4300E3AD65 /* PView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PView.xib; sourceTree = "<group>"; };
-		03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandScapeView.swift; sourceTree = "<group>"; };
-		03C887EE1E644D6A00E3AD65 /* PView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PView.swift; sourceTree = "<group>"; };
-		03C887F01E644F6100E3AD65 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		03C887F21E6473C400E3AD65 /* PageItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemViewController.swift; sourceTree = "<group>"; };
 		03C887F41E64748900E3AD65 /* ProductPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
 		03C887F71E64B9B400E3AD65 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
@@ -144,16 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */,
-				03C887E81E644B7000E3AD65 /* LandScapeView.xib */,
-				03C887EA1E644C4300E3AD65 /* PView.xib */,
-				03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */,
-				03C887EE1E644D6A00E3AD65 /* PView.swift */,
-				03C887F01E644F6100E3AD65 /* TestViewController.swift */,
 				03C887F21E6473C400E3AD65 /* PageItemViewController.swift */,
 				03C887F41E64748900E3AD65 /* ProductPageViewController.swift */,
 				03C887F91E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift */,
 				03C887FF1E64E7E100E3AD65 /* ProductSpecTableViewCell.swift */,
 				03C888011E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift */,
+				03CEBDD71E60973000578FCE /* ViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -197,7 +183,6 @@
 				03931D5C1E60BE6A00606DA1 /* View */,
 				03931D581E60B77400606DA1 /* Model */,
 				03CEBDD51E60973000578FCE /* AppDelegate.swift */,
-				03CEBDD71E60973000578FCE /* ViewController.swift */,
 				03CEBDD91E60973000578FCE /* Main.storyboard */,
 				03CEBDDC1E60973000578FCE /* Assets.xcassets */,
 				03CEBDDE1E60973000578FCE /* LaunchScreen.storyboard */,
@@ -372,11 +357,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C887E91E644B7000E3AD65 /* LandScapeView.xib in Resources */,
 				03CEBDE01E60973000578FCE /* LaunchScreen.storyboard in Resources */,
 				03CEBDDD1E60973000578FCE /* Assets.xcassets in Resources */,
 				03CEBDDB1E60973000578FCE /* Main.storyboard in Resources */,
-				03C887EB1E644C4300E3AD65 /* PView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,18 +525,15 @@
 				03C887FE1E64DD6B00E3AD65 /* AttributedStringExtension.swift in Sources */,
 				03C887FA1E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift in Sources */,
 				03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */,
-				03C887EF1E644D6A00E3AD65 /* PView.swift in Sources */,
 				03931D5A1E60B79600606DA1 /* ProductGrid.swift in Sources */,
 				03931D5E1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift in Sources */,
 				03C887F81E64B9B400E3AD65 /* UIImageViewExtension.swift in Sources */,
 				03C887F31E6473C400E3AD65 /* PageItemViewController.swift in Sources */,
 				03C888001E64E7E100E3AD65 /* ProductSpecTableViewCell.swift in Sources */,
-				03C887ED1E644D5B00E3AD65 /* LandScapeView.swift in Sources */,
 				03C887FC1E64D0A800E3AD65 /* StringExtension.swift in Sources */,
 				03931D551E60A87500606DA1 /* Webservices.swift in Sources */,
 				03C888021E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift in Sources */,
 				03CEBDD81E60973000578FCE /* ViewController.swift in Sources */,
-				03C887F11E644F6100E3AD65 /* TestViewController.swift in Sources */,
 				03C887F51E64748900E3AD65 /* ProductPageViewController.swift in Sources */,
 				03CEBDD61E60973000578FCE /* AppDelegate.swift in Sources */,
 			);

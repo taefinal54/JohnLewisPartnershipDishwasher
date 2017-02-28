@@ -70,7 +70,7 @@ class WebServices{
         }
     }
     
-    func HTTPRequest(url: String, completion: @escaping ([String: AnyObject]) -> Void){
+    func HTTPRequest(session: URLSession, url: String, completion: @escaping ([String: AnyObject]) -> Void){
         // Set up the URL request
         guard let url = URL(string: url) else {
             print("Error: cannot create URL")
@@ -78,9 +78,7 @@ class WebServices{
         }
         let urlRequest = URLRequest(url: url)
         
-        // set up the session
-        let config = URLSessionConfiguration.default
-        let session = URLSession(configuration: config)
+
         
         // make the request
         let task = session.dataTask(with: urlRequest) {
