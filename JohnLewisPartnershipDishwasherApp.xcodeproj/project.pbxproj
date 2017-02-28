@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0349A0731E66346900961D1B /* WebServicesHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349A0721E66346900961D1B /* WebServicesHelperTests.swift */; };
 		03931D551E60A87500606DA1 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D541E60A87500606DA1 /* Webservices.swift */; };
 		03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */; };
 		03931D5A1E60B79600606DA1 /* ProductGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D591E60B79600606DA1 /* ProductGrid.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0349A0721E66346900961D1B /* WebServicesHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesHelperTests.swift; sourceTree = "<group>"; };
 		03931D541E60A87500606DA1 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
 		03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebservicesHelper.swift; sourceTree = "<group>"; };
 		03931D591E60B79600606DA1 /* ProductGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGrid.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 			children = (
 				03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */,
 				03CEBDEC1E60973000578FCE /* Info.plist */,
+				0349A0721E66346900961D1B /* WebServicesHelperTests.swift */,
 			);
 			path = JohnLewisPartnershipDishwasherAppTests;
 			sourceTree = "<group>";
@@ -543,6 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0349A0731E66346900961D1B /* WebServicesHelperTests.swift in Sources */,
 				03CEBDEB1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
