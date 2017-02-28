@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03931D551E60A87500606DA1 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D541E60A87500606DA1 /* Webservices.swift */; };
+		03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */; };
+		03931D5A1E60B79600606DA1 /* ProductGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D591E60B79600606DA1 /* ProductGrid.swift */; };
+		03931D5E1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */; };
+		03C887E91E644B7000E3AD65 /* LandScapeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C887E81E644B7000E3AD65 /* LandScapeView.xib */; };
+		03C887EB1E644C4300E3AD65 /* PView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C887EA1E644C4300E3AD65 /* PView.xib */; };
+		03C887ED1E644D5B00E3AD65 /* LandScapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */; };
+		03C887EF1E644D6A00E3AD65 /* PView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887EE1E644D6A00E3AD65 /* PView.swift */; };
+		03C887F11E644F6100E3AD65 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F01E644F6100E3AD65 /* TestViewController.swift */; };
+		03C887F31E6473C400E3AD65 /* PageItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F21E6473C400E3AD65 /* PageItemViewController.swift */; };
+		03C887F51E64748900E3AD65 /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F41E64748900E3AD65 /* ProductPageViewController.swift */; };
+		03C887F81E64B9B400E3AD65 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F71E64B9B400E3AD65 /* UIImageViewExtension.swift */; };
+		03C887FA1E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887F91E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift */; };
+		03C887FC1E64D0A800E3AD65 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887FB1E64D0A800E3AD65 /* StringExtension.swift */; };
+		03C887FE1E64DD6B00E3AD65 /* AttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887FD1E64DD6B00E3AD65 /* AttributedStringExtension.swift */; };
+		03C888001E64E7E100E3AD65 /* ProductSpecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C887FF1E64E7E100E3AD65 /* ProductSpecTableViewCell.swift */; };
+		03C888021E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C888011E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift */; };
 		03CEBDD61E60973000578FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDD51E60973000578FCE /* AppDelegate.swift */; };
 		03CEBDD81E60973000578FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDD71E60973000578FCE /* ViewController.swift */; };
 		03CEBDDB1E60973000578FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBDD91E60973000578FCE /* Main.storyboard */; };
@@ -14,6 +31,9 @@
 		03CEBDE01E60973000578FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CEBDDE1E60973000578FCE /* LaunchScreen.storyboard */; };
 		03CEBDEB1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */; };
 		03CEBDF61E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEBDF51E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift */; };
+		08BA63D3D0E5E64F929716BE /* Pods_JohnLewisPartnershipDishwasherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1D929D3AB774EC5998E420 /* Pods_JohnLewisPartnershipDishwasherAppUITests.framework */; };
+		A952748D89AF50F86DF7C6BD /* Pods_JohnLewisPartnershipDishwasherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F766D648F3BA9A5BEE3332C /* Pods_JohnLewisPartnershipDishwasherAppTests.framework */; };
+		CB6CF262CCC51480E6E96256 /* Pods_JohnLewisPartnershipDishwasherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B369793C2BF55EF991199C4 /* Pods_JohnLewisPartnershipDishwasherApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03931D541E60A87500606DA1 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebservicesHelper.swift; sourceTree = "<group>"; };
+		03931D591E60B79600606DA1 /* ProductGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGrid.swift; sourceTree = "<group>"; };
+		03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGridCollectionViewCell.swift; sourceTree = "<group>"; };
+		03C887E81E644B7000E3AD65 /* LandScapeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandScapeView.xib; sourceTree = "<group>"; };
+		03C887EA1E644C4300E3AD65 /* PView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PView.xib; sourceTree = "<group>"; };
+		03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandScapeView.swift; sourceTree = "<group>"; };
+		03C887EE1E644D6A00E3AD65 /* PView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PView.swift; sourceTree = "<group>"; };
+		03C887F01E644F6100E3AD65 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		03C887F21E6473C400E3AD65 /* PageItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemViewController.swift; sourceTree = "<group>"; };
+		03C887F41E64748900E3AD65 /* ProductPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		03C887F71E64B9B400E3AD65 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		03C887F91E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInformationTableViewCell.swift; sourceTree = "<group>"; };
+		03C887FB1E64D0A800E3AD65 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		03C887FD1E64DD6B00E3AD65 /* AttributedStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedStringExtension.swift; sourceTree = "<group>"; };
+		03C887FF1E64E7E100E3AD65 /* ProductSpecTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSpecTableViewCell.swift; sourceTree = "<group>"; };
+		03C888011E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSpecDetailTableViewCell.swift; sourceTree = "<group>"; };
 		03CEBDD21E60973000578FCE /* JohnLewisPartnershipDishwasherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnLewisPartnershipDishwasherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CEBDD51E60973000578FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03CEBDD71E60973000578FCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +84,15 @@
 		03CEBDF11E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JohnLewisPartnershipDishwasherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CEBDF51E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnLewisPartnershipDishwasherAppUITests.swift; sourceTree = "<group>"; };
 		03CEBDF71E60973000578FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC50C8AA13191B63C78C15F /* Pods-JohnLewisPartnershipDishwasherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppUITests/Pods-JohnLewisPartnershipDishwasherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B369793C2BF55EF991199C4 /* Pods_JohnLewisPartnershipDishwasherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JohnLewisPartnershipDishwasherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D1D929D3AB774EC5998E420 /* Pods_JohnLewisPartnershipDishwasherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JohnLewisPartnershipDishwasherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F766D648F3BA9A5BEE3332C /* Pods_JohnLewisPartnershipDishwasherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JohnLewisPartnershipDishwasherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF3D0E9AC2120A699CCE09C /* Pods-JohnLewisPartnershipDishwasherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppUITests/Pods-JohnLewisPartnershipDishwasherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5BD5A9943A8C2C229EF7DC0 /* Pods-JohnLewisPartnershipDishwasherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppTests/Pods-JohnLewisPartnershipDishwasherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6DAE1327CBD47426CADDBB2 /* Pods-JohnLewisPartnershipDishwasherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherApp/Pods-JohnLewisPartnershipDishwasherApp.release.xcconfig"; sourceTree = "<group>"; };
+		B9FA62140800DE4727DFBCBB /* Pods-JohnLewisPartnershipDishwasherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppTests/Pods-JohnLewisPartnershipDishwasherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F48A9620F390F949EE04205A /* Pods-JohnLewisPartnershipDishwasherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnLewisPartnershipDishwasherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherApp/Pods-JohnLewisPartnershipDishwasherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6CF262CCC51480E6E96256 /* Pods_JohnLewisPartnershipDishwasherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A952748D89AF50F86DF7C6BD /* Pods_JohnLewisPartnershipDishwasherAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +116,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BA63D3D0E5E64F929716BE /* Pods_JohnLewisPartnershipDishwasherAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03931D581E60B77400606DA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03931D5B1E60B7A400606DA1 /* Objects */,
+				03CEBE031E60A2F800578FCE /* Webservices */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		03931D5B1E60B7A400606DA1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				03931D591E60B79600606DA1 /* ProductGrid.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		03931D5C1E60BE6A00606DA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03931D5D1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift */,
+				03C887E81E644B7000E3AD65 /* LandScapeView.xib */,
+				03C887EA1E644C4300E3AD65 /* PView.xib */,
+				03C887EC1E644D5B00E3AD65 /* LandScapeView.swift */,
+				03C887EE1E644D6A00E3AD65 /* PView.swift */,
+				03C887F01E644F6100E3AD65 /* TestViewController.swift */,
+				03C887F21E6473C400E3AD65 /* PageItemViewController.swift */,
+				03C887F41E64748900E3AD65 /* ProductPageViewController.swift */,
+				03C887F91E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift */,
+				03C887FF1E64E7E100E3AD65 /* ProductSpecTableViewCell.swift */,
+				03C888011E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		03C887F61E64B98F00E3AD65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03C887F71E64B9B400E3AD65 /* UIImageViewExtension.swift */,
+				03C887FB1E64D0A800E3AD65 /* StringExtension.swift */,
+				03C887FD1E64DD6B00E3AD65 /* AttributedStringExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		03CEBDC91E60973000578FCE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +175,8 @@
 				03CEBDE91E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests */,
 				03CEBDF41E60973000578FCE /* JohnLewisPartnershipDishwasherAppUITests */,
 				03CEBDD31E60973000578FCE /* Products */,
+				BF66C8998E3A0B0AF04991D7 /* Pods */,
+				17B410A8E8D7DA2C2016E7FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +193,9 @@
 		03CEBDD41E60973000578FCE /* JohnLewisPartnershipDishwasherApp */ = {
 			isa = PBXGroup;
 			children = (
+				03C887F61E64B98F00E3AD65 /* Extensions */,
+				03931D5C1E60BE6A00606DA1 /* View */,
+				03931D581E60B77400606DA1 /* Model */,
 				03CEBDD51E60973000578FCE /* AppDelegate.swift */,
 				03CEBDD71E60973000578FCE /* ViewController.swift */,
 				03CEBDD91E60973000578FCE /* Main.storyboard */,
@@ -125,6 +224,38 @@
 			path = JohnLewisPartnershipDishwasherAppUITests;
 			sourceTree = "<group>";
 		};
+		03CEBE031E60A2F800578FCE /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				03931D541E60A87500606DA1 /* Webservices.swift */,
+				03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */,
+			);
+			name = Webservices;
+			sourceTree = "<group>";
+		};
+		17B410A8E8D7DA2C2016E7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B369793C2BF55EF991199C4 /* Pods_JohnLewisPartnershipDishwasherApp.framework */,
+				3F766D648F3BA9A5BEE3332C /* Pods_JohnLewisPartnershipDishwasherAppTests.framework */,
+				2D1D929D3AB774EC5998E420 /* Pods_JohnLewisPartnershipDishwasherAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF66C8998E3A0B0AF04991D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48A9620F390F949EE04205A /* Pods-JohnLewisPartnershipDishwasherApp.debug.xcconfig */,
+				B6DAE1327CBD47426CADDBB2 /* Pods-JohnLewisPartnershipDishwasherApp.release.xcconfig */,
+				B9FA62140800DE4727DFBCBB /* Pods-JohnLewisPartnershipDishwasherAppTests.debug.xcconfig */,
+				A5BD5A9943A8C2C229EF7DC0 /* Pods-JohnLewisPartnershipDishwasherAppTests.release.xcconfig */,
+				1EC50C8AA13191B63C78C15F /* Pods-JohnLewisPartnershipDishwasherAppUITests.debug.xcconfig */,
+				7BF3D0E9AC2120A699CCE09C /* Pods-JohnLewisPartnershipDishwasherAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03CEBDFA1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherApp" */;
 			buildPhases = (
+				5CD2DFA298329460F45BED5D /* [CP] Check Pods Manifest.lock */,
 				03CEBDCE1E60973000578FCE /* Sources */,
 				03CEBDCF1E60973000578FCE /* Frameworks */,
 				03CEBDD01E60973000578FCE /* Resources */,
+				96F4C634E58279AAE2751C64 /* [CP] Embed Pods Frameworks */,
+				20B074DABBE9A8187EF0ADA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03CEBDFD1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppTests" */;
 			buildPhases = (
+				408DFE6D6FF849F2F3B198CF /* [CP] Check Pods Manifest.lock */,
 				03CEBDE21E60973000578FCE /* Sources */,
 				03CEBDE31E60973000578FCE /* Frameworks */,
 				03CEBDE41E60973000578FCE /* Resources */,
+				1BB6ABAFB41AB249CD1A034B /* [CP] Embed Pods Frameworks */,
+				A987C3CC6658CE4A2BA8C57E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03CEBE001E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppUITests" */;
 			buildPhases = (
+				4E01B23F7C11A4097443ABF3 /* [CP] Check Pods Manifest.lock */,
 				03CEBDED1E60973000578FCE /* Sources */,
 				03CEBDEE1E60973000578FCE /* Frameworks */,
 				03CEBDEF1E60973000578FCE /* Resources */,
+				7122616F70CBBC36A3BB4B07 /* [CP] Embed Pods Frameworks */,
+				14907CB4BDEFE85DF6B6CE44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +372,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C887E91E644B7000E3AD65 /* LandScapeView.xib in Resources */,
 				03CEBDE01E60973000578FCE /* LaunchScreen.storyboard in Resources */,
 				03CEBDDD1E60973000578FCE /* Assets.xcassets in Resources */,
 				03CEBDDB1E60973000578FCE /* Main.storyboard in Resources */,
+				03C887EB1E644C4300E3AD65 /* PView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +396,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14907CB4BDEFE85DF6B6CE44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppUITests/Pods-JohnLewisPartnershipDishwasherAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB6ABAFB41AB249CD1A034B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppTests/Pods-JohnLewisPartnershipDishwasherAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20B074DABBE9A8187EF0ADA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherApp/Pods-JohnLewisPartnershipDishwasherApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		408DFE6D6FF849F2F3B198CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E01B23F7C11A4097443ABF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD2DFA298329460F45BED5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7122616F70CBBC36A3BB4B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppUITests/Pods-JohnLewisPartnershipDishwasherAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F4C634E58279AAE2751C64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherApp/Pods-JohnLewisPartnershipDishwasherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A987C3CC6658CE4A2BA8C57E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnLewisPartnershipDishwasherAppTests/Pods-JohnLewisPartnershipDishwasherAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03CEBDCE1E60973000578FCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C887FE1E64DD6B00E3AD65 /* AttributedStringExtension.swift in Sources */,
+				03C887FA1E64CC4D00E3AD65 /* ProductInformationTableViewCell.swift in Sources */,
+				03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */,
+				03C887EF1E644D6A00E3AD65 /* PView.swift in Sources */,
+				03931D5A1E60B79600606DA1 /* ProductGrid.swift in Sources */,
+				03931D5E1E60BE8700606DA1 /* ProductGridCollectionViewCell.swift in Sources */,
+				03C887F81E64B9B400E3AD65 /* UIImageViewExtension.swift in Sources */,
+				03C887F31E6473C400E3AD65 /* PageItemViewController.swift in Sources */,
+				03C888001E64E7E100E3AD65 /* ProductSpecTableViewCell.swift in Sources */,
+				03C887ED1E644D5B00E3AD65 /* LandScapeView.swift in Sources */,
+				03C887FC1E64D0A800E3AD65 /* StringExtension.swift in Sources */,
+				03931D551E60A87500606DA1 /* Webservices.swift in Sources */,
+				03C888021E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift in Sources */,
 				03CEBDD81E60973000578FCE /* ViewController.swift in Sources */,
+				03C887F11E644F6100E3AD65 /* TestViewController.swift in Sources */,
+				03C887F51E64748900E3AD65 /* ProductPageViewController.swift in Sources */,
 				03CEBDD61E60973000578FCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +705,7 @@
 		};
 		03CEBDFB1E60973000578FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48A9620F390F949EE04205A /* Pods-JohnLewisPartnershipDishwasherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JohnLewisPartnershipDishwasherApp/Info.plist;
@@ -422,6 +718,7 @@
 		};
 		03CEBDFC1E60973000578FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DAE1327CBD47426CADDBB2 /* Pods-JohnLewisPartnershipDishwasherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JohnLewisPartnershipDishwasherApp/Info.plist;
@@ -434,6 +731,7 @@
 		};
 		03CEBDFE1E60973000578FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FA62140800DE4727DFBCBB /* Pods-JohnLewisPartnershipDishwasherAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +746,7 @@
 		};
 		03CEBDFF1E60973000578FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BD5A9943A8C2C229EF7DC0 /* Pods-JohnLewisPartnershipDishwasherAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +761,7 @@
 		};
 		03CEBE011E60973000578FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EC50C8AA13191B63C78C15F /* Pods-JohnLewisPartnershipDishwasherAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppUITests/Info.plist;
@@ -475,6 +775,7 @@
 		};
 		03CEBE021E60973000578FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF3D0E9AC2120A699CCE09C /* Pods-JohnLewisPartnershipDishwasherAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = JohnLewisPartnershipDishwasherAppUITests/Info.plist;
@@ -505,6 +806,7 @@
 				03CEBDFC1E60973000578FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03CEBDFD1E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +815,7 @@
 				03CEBDFF1E60973000578FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03CEBE001E60973000578FCE /* Build configuration list for PBXNativeTarget "JohnLewisPartnershipDishwasherAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +824,7 @@
 				03CEBE021E60973000578FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
