@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0323F07B1E670F6600990112 /* PrductInformationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323F07A1E670F6600990112 /* PrductInformationParser.swift */; };
+		0323F07F1E6717CA00990112 /* PrductInformationParser234357353Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323F07E1E6717CA00990112 /* PrductInformationParser234357353Tests.swift */; };
 		0349A0731E66346900961D1B /* WebServicesHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0349A0721E66346900961D1B /* WebServicesHelperTests.swift */; };
 		03931D551E60A87500606DA1 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D541E60A87500606DA1 /* Webservices.swift */; };
 		03931D571E60AB3C00606DA1 /* WebservicesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0323F07A1E670F6600990112 /* PrductInformationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrductInformationParser.swift; sourceTree = "<group>"; };
+		0323F07E1E6717CA00990112 /* PrductInformationParser234357353Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrductInformationParser234357353Tests.swift; sourceTree = "<group>"; };
 		0349A0721E66346900961D1B /* WebServicesHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServicesHelperTests.swift; sourceTree = "<group>"; };
 		03931D541E60A87500606DA1 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
 		03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebservicesHelper.swift; sourceTree = "<group>"; };
@@ -199,6 +203,7 @@
 				03CEBDEA1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift */,
 				03CEBDEC1E60973000578FCE /* Info.plist */,
 				0349A0721E66346900961D1B /* WebServicesHelperTests.swift */,
+				0323F07E1E6717CA00990112 /* PrductInformationParser234357353Tests.swift */,
 			);
 			path = JohnLewisPartnershipDishwasherAppTests;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			children = (
 				03931D541E60A87500606DA1 /* Webservices.swift */,
 				03931D561E60AB3C00606DA1 /* WebservicesHelper.swift */,
+				0323F07A1E670F6600990112 /* PrductInformationParser.swift */,
 			);
 			name = Webservices;
 			sourceTree = "<group>";
@@ -534,6 +540,7 @@
 				03C887F31E6473C400E3AD65 /* PageItemViewController.swift in Sources */,
 				03C888001E64E7E100E3AD65 /* ProductSpecTableViewCell.swift in Sources */,
 				03C887FC1E64D0A800E3AD65 /* StringExtension.swift in Sources */,
+				0323F07B1E670F6600990112 /* PrductInformationParser.swift in Sources */,
 				03931D551E60A87500606DA1 /* Webservices.swift in Sources */,
 				03C888021E64E7F500E3AD65 /* ProductSpecDetailTableViewCell.swift in Sources */,
 				03CEBDD81E60973000578FCE /* ViewController.swift in Sources */,
@@ -547,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0349A0731E66346900961D1B /* WebServicesHelperTests.swift in Sources */,
+				0323F07F1E6717CA00990112 /* PrductInformationParser234357353Tests.swift in Sources */,
 				03CEBDEB1E60973000578FCE /* JohnLewisPartnershipDishwasherAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

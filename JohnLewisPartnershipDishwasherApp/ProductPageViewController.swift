@@ -23,11 +23,10 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
     // Initialize it right away here
     private var contentImages: [String] = []
     var productID:String!
-    private var productDectLabelText:String = ""
-    private var productCodeLabelText:String = ""
     private var featuresName:[String] = []
     private var featuresValue:[String] = []
     var responseDictionary: [String: AnyObject]!
+    var prductInformationParser:PrductInformationParser!
     
     let screenHeight = UIScreen.main.bounds.height
     let scrollViewContentHeight = 1200 as CGFloat
@@ -147,6 +146,9 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         // Fetch products from the API.
         WebServices.sharedInstance.HTTPRequest(session:session, url: WebServicesHelper.getProductPage(productID: productID)) { responseDictionary in
             self.responseDictionary = responseDictionary
+            
+            self.prductInformationParser = PrductInformationParser(with: responseDictionary)
+            
            // DispatchQueue.main.async(){
                 self.updateView()
           //  }
@@ -155,104 +157,79 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         }
     }
     
+    
+    
+
+    
     func updateView(){
-        
-        guard let title = responseDictionary["title"] as? String else {
-            print("Could not get todo title from JSON")
-            return
-        }
 
-        self.title = title
-        
-        guard let todoTitle = responseDictionary["price"] as? [String:AnyObject] else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        guard let nowPrice = todoTitle["now"] as? String else {
-            print("Could not get todo title from JSON")
-            return
-        }
+        self.title = prductInformationParser.getTitle()
 
         DispatchQueue.main.async(){
 
-        self.productPriceLabel.text = "£" + nowPrice
-        }
-
-        guard let skus = responseDictionary["skus"] as? [[String:AnyObject]] else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        let media = skus[0]["media"] as? [String:AnyObject]
-        guard let images = media?["images"] as? [String:AnyObject] else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        guard let urls = images["urls"] as? [String] else {
-            print("Could not get todo title from JSON")
-            return
+        self.productPriceLabel.text = "£" + self.prductInformationParser.getNowPrice()
         }
         
         DispatchQueue.main.async(){
 
-        self.contentImages = urls
+        self.contentImages = self.prductInformationParser.getURLs()
         self.pageViewController?.reloadInputViews()
         self.createPageViewController()
         self.setupPageControl()
         }
-        guard let additionalServices = responseDictionary["additionalServices"] as? [String:AnyObject] else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        guard let includedServices = additionalServices["includedServices"] as? [String] else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        let servicesStr = includedServices[0]
+
         
         DispatchQueue.main.async(){
 
-        self.additionalServicesLabel.text = servicesStr
-        }
-        guard let displaySpecialOffer = responseDictionary["displaySpecialOffer"] as? String else {
-            print("Could not get todo title from JSON")
-            return
+        self.additionalServicesLabel.text = self.prductInformationParser.getServices()
         }
         
         DispatchQueue.main.async(){
 
-        self.offerLabel.text = displaySpecialOffer
+        self.offerLabel.text = self.prductInformationParser.getdisplaySpecialOffer()
         }
+        
+        getFeatures()
+        
+        DispatchQueue.main.async(){
+
+        self.productSpecTableView.reloadData()
+        }
+        
+        
+        removeActivityIndicatory()
+    }
+    
+   
+    func getProductInformation() -> String {
+        
+        if prductInformationParser == nil{
+            return ""
+        }
+        
+        return prductInformationParser.getProductInformation()
+    }
+
+    func getProductCode() -> String {
+        if prductInformationParser == nil{
+            return ""
+        }
+        
+        return prductInformationParser.getProductCode()
+    }
+    
+    
+    
+    func getFeatures(){
         guard let details = responseDictionary["details"] as? [String:AnyObject] else {
             print("Could not get todo title from JSON")
             return
         }
         
-        guard let productInformation = details["productInformation"] as? String else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        productDectLabelText = productInformation
-        
-        guard let code = responseDictionary["code"] as? String else {
-            print("Could not get todo title from JSON")
-            return
-        }
-        
-        productCodeLabelText = code
-        
-        
-        
         guard let features = details["features"] as? [[String:AnyObject]] else {
             print("Could not get todo title from JSON")
             return
         }
-        
         
         let featuresDict = features[0] as [String:AnyObject]
         
@@ -267,20 +244,7 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
             featuresName.append((attribute["name"] as? String)!)
             featuresValue.append((attribute["value"] as? String)!)
         }
-        
-        
-
-        
-        DispatchQueue.main.async(){
-
-        self.productSpecTableView.reloadData()
-        }
-        
-        
-        removeActivityIndicatory()
     }
-    
-
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -291,8 +255,8 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
         
         if (indexPath.row == 0){
             let cell = tableView.dequeueReusableCell(withIdentifier: "ProductInformationCell", for: indexPath) as! ProductInformationTableViewCell
-            cell.productDecLabel.attributedText = productDectLabelText.htmlAttributedString()
-            cell.productCodeLabel.text = "Product code:" + productCodeLabelText
+            cell.productDecLabel.attributedText = getProductInformation().htmlAttributedString()
+            cell.productCodeLabel.text = "Product code:" + getProductCode()
             return cell
 
         }  else if  (indexPath.row == 1){
@@ -311,7 +275,7 @@ class ProductPageViewController: UIViewController, UIPageViewControllerDataSourc
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         if (indexPath.row == 0){
-            return productDectLabelText.htmlAttributedString()!.heightWithConstrainedWidth(width: 720.0) + 150
+            return getProductInformation().htmlAttributedString()!.heightWithConstrainedWidth(width: 720.0) + 150
         }
         else if  (indexPath.row == 1)
         {
